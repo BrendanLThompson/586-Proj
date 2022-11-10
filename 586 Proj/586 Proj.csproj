@@ -49,22 +49,25 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="AvailablePage.xaml.cs">
+	  <Compile Update="Pages\AvailablePage.xaml.cs">
 	    <DependentUpon>AvailablePage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="CustomerPage.xaml.cs">
+	  <Compile Update="Pages\CustomerPage.xaml.cs">
 	    <DependentUpon>CustomerPage.xaml</DependentUpon>
 	  </Compile>
-	  <Compile Update="UnavailablePage.xaml.cs">
+	  <Compile Update="Pages\UnavailablePage.xaml.cs">
 	    <DependentUpon>UnavailablePage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="AvailablePage.xaml">
+	  <MauiXaml Update="Pages\AvailablePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="UnavailablePage.xaml">
+	  <MauiXaml Update="Pages\UnavailablePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="TabbedPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

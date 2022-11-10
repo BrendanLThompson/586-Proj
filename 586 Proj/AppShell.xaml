@@ -4,21 +4,46 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:_586_Proj"
-    Shell.FlyoutBehavior="Flyout">
+    Shell.FlyoutBehavior="Locked">
 
-    <ShellContent
-        Title="Customers"
+    <!--Flyout Items with Tabs-->
+    <FlyoutItem Title="Customers">
+        <ShellContent
         ContentTemplate="{DataTemplate local:CustomerPage}"
         Route="CustomerPage" />
+    </FlyoutItem>
 
-    <ShellContent
-        Title="Available Rooms"
+    <FlyoutItem Title="Available Rooms">
+        <ShellContent
+        Title="Rooms"
         ContentTemplate="{DataTemplate local:AvailablePage}"
         Route="AvailablePage" />
-
-    <ShellContent
-        Title="Unavailable Rooms"
+        <ShellContent
+        Title="Rooms"
         ContentTemplate="{DataTemplate local:UnavailablePage}"
         Route="UnavailablePage" />
+        <ShellContent
+        Title="Rooms"
+        ContentTemplate="{DataTemplate local:CustomerPage}"
+        Route="CustomerPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Unvailable Rooms">
+        <ShellContent
+        Title="Rooms"
+        ContentTemplate="{DataTemplate local:AvailablePage}"
+        Route="AvailablePage" />
+        <ShellContent
+        Title="Rooms"
+        ContentTemplate="{DataTemplate local:UnavailablePage}"
+        Route="UnavailablePage" />
+        <ShellContent
+        Title="Rooms"
+        ContentTemplate="{DataTemplate local:CustomerPage}"
+        Route="CustomerPage" />
+        <ShellContent
+        ContentTemplate="{DataTemplate local:UnavailablePage}"
+        Route="UnavailablePage" />
+    </FlyoutItem>
 
 </Shell>
