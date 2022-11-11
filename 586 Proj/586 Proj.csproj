@@ -48,4 +48,28 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Compile Update="Pages\AvailablePage.xaml.cs">
+	    <DependentUpon>AvailablePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\CustomerPage.xaml.cs">
+	    <DependentUpon>CustomerPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Pages\UnavailablePage.xaml.cs">
+	    <DependentUpon>UnavailablePage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Pages\AvailablePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Pages\UnavailablePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="TabbedPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
