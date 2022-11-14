@@ -64,6 +64,9 @@
 	  <MauiXaml Update="Pages\AvailablePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\LoginPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\UnavailablePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
