@@ -4,9 +4,84 @@
              x:Class="_586_Proj.UnavailablePage"
              Title="Unavailable Rooms">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <HorizontalStackLayout Spacing="20">
+            <Label Grid.Column="1"
+                                   Text="104"
+                                   FontAttributes="Bold"/>
+            <Label Grid.Column="2"
+                                   Text="Queen"
+                                   FontAttributes="Bold" />
+            <Label Grid.Column="3"
+                                   Text="2 Queen Beds, No View"
+                                   FontAttributes="Bold" />
+            <Label Grid.Row="2"
+                                   Grid.Column="1"
+                                   Text="$300.00"
+                                   FontAttributes="Italic"/>
+            <Label Grid.Row="2"
+                                   Grid.Column="2"
+                                   Text="Unavailable"
+                                   FontAttributes="Italic"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="20">
+            <Label Grid.Column="1"
+                                   Text="105"
+                                   FontAttributes="Bold"/>
+            <Label Grid.Column="2"
+                                   Text="King"
+                                   FontAttributes="Bold" />
+            <Label Grid.Column="3"
+                                   Text="1 Queen Bed, No View"
+                                   FontAttributes="Bold" />
+            <Label Grid.Row="2"
+                                   Grid.Column="1"
+                                   Text="$350.00"
+                                   FontAttributes="Italic"/>
+            <Label Grid.Row="2"
+                                   Grid.Column="2"
+                                   Text="Unavailable"
+                                   FontAttributes="Italic"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="20">
+            <Label Grid.Column="1"
+                                   Text="105"
+                                   FontAttributes="Bold"/>
+            <Label Grid.Column="2"
+                                   Text="Suite"
+                                   FontAttributes="Bold" />
+            <Label Grid.Column="3"
+                                   Text="1 King Bed, 1 Queen Pullout, No View"
+                                   FontAttributes="Bold" />
+            <Label Grid.Row="2"
+                                   Grid.Column="1"
+                                   Text="$400.00"
+                                   FontAttributes="Italic"/>
+            <Label Grid.Row="2"
+                                   Grid.Column="2"
+                                   Text="Unavailable"
+                                   FontAttributes="Italic"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="20">
+            <Label Grid.Column="1"
+                                   Text="205"
+                                   FontAttributes="Bold"/>
+            <Label Grid.Column="2"
+                                   Text="Queen"
+                                   FontAttributes="Bold" />
+            <Label Grid.Column="3"
+                                   Text="2 Queen Beds, View"
+                                   FontAttributes="Bold" />
+            <Label Grid.Row="2"
+                                   Grid.Column="1"
+                                   Text="$350.00"
+                                   FontAttributes="Italic"/>
+            <Label Grid.Row="2"
+                                   Grid.Column="2"
+                                   Text="Unavailable"
+                                   FontAttributes="Italic"/>
+        </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
